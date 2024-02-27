@@ -1,0 +1,44 @@
+.Main-Container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px; 
+   /* width: 70%;  */
+}
+.Container-Right{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.links{
+    color: black;
+    padding-right:60px ;
+    font-size: 20px;
+    text-decoration: none;
+    
+    
+}
+.links:hover{
+    color: rgb(219, 10, 247);
+}
+.links:active{
+    color: green;
+}
+
+
+@media only screen and (max-width: 414px){
+    .Main-Container{
+        display: block;
+        
+        
+     }
+    .links{
+padding-right: 10px;
+font-size: 15px;
+
+    }
+    
+    
+}
+
+
